@@ -1,0 +1,6 @@
+x=input()
+l=len(x)
+n=chr(16-len(x)%16)
+x=x+n*(16-len(x)%16)
+print(x)
+print(len(x))
